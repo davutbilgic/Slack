@@ -1,0 +1,33 @@
+Confilict --> solve
+-------------
+Task1:
+open IntelliJ
+open Login class --> write sth in line10
+add + commit
+open github-slack repo
+src - Login -> write sth in line 14
+click -> commit changes
+chnages in git  vs changes in gighub
+   push ? pull ?
+Auto-merging src/day_1/Login.java
+CONFLICT (content): Merge conflict in src/day_1/Login.java
+Automatic merge failed; fix conflicts and then commit the result.
+how to solve confilict?
+1. analyze what the confilict point?
+   - 2 different codes
+      you might keep both of them
+   - the same code ?
+     delete one of them
+2. Delete extra lines :
+   >>>>>>HEAD
+   =======
+   <<<<<<<<
+   <<7582049-930586495094-036809
+3. add + commit + push
+--------------------
+task2:
+1. open intelliJ -> CreateChannel class
+write several lines of code
+2. add + commit
+3. open CreateChannel from Github
+4. click -> commit changes
